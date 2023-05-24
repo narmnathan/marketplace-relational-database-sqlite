@@ -40,7 +40,7 @@ def create():
     name char PRIMARY KEY,
     card_number varchar,
     cvv varchar,
-    expiratioN_date varchar
+    expiration_date varchar
     )
     """
     cursor.execute(login_query)
